@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 int iterativeBinarySearch(int array[], int start_index, int end_index, int element){
    while (start_index <= end_index){
       int middle = start_index + (end_index- start_index )/2;
